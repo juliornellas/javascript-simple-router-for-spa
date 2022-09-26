@@ -21,7 +21,7 @@ const route = (event) => {
  */
 const routes = {
     404: "/pages/404.html",
-    "/": "/index.html",
+    "/": "/pages/home.html",
     "/about": "/pages/about.html",
     "/lorem": "/pages/lorem.html"
 };
@@ -37,9 +37,9 @@ const handleLocation = async () => {
 
     //Passing route as argument. Transform the response to text
     const html = await fetch(route).then((data) => data.text());
-
+    
     //Assign the content to load into the container
-    document.getElementById("main-page").innerHTML = html
+    document.getElementById("main").innerHTML = html
 };
 
 //Set the watching to the browser router functionality
