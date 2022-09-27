@@ -2,6 +2,8 @@
 
 ### Beginners level
 
-> JS knowledgement required!
+> *What's required?*
+> - [x] JS knowledgment
+> - [x] Live Server plugin
 
 Simples way to create a router for small application.
