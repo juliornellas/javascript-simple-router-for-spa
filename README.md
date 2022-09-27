@@ -4,6 +4,6 @@
 
 Simples way to create a router for small application.
 
-> *What's required?*
+> 📌 *What's required?*
 > - [x] JS knowledgment
 > - [x] Live Server plugin
